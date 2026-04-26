@@ -22,9 +22,8 @@ using n8n running on Docker.
 ## How to run
 
 ### 1. Start n8n with Docker
-```bash
-docker-compose up -d
-```
+docker run -it --rm --name n8n-container -p 5678:5678 n8nio/n8n:latest
+
 Then open: http://localhost:5678
 
 ### 2. Add your credentials in n8n
@@ -33,7 +32,7 @@ Then open: http://localhost:5678
 - LinkedIn OAuth
 
 ### 3. Import the workflow
-Go to n8n → Workflows → Import → select `workflow_clean.json`
+Go to n8n → Workflows → Import → select workflow_clean.json
 
 ### 4. Set up your Google Sheet
 Columns needed: `topic` | `status` | `post` | `posted_date`
