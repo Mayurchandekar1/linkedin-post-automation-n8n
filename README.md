@@ -10,7 +10,7 @@ using n8n running on Docker.
 4. Updates the sheet row — sets status to "posted" + logs the date
 
 ## Workflow diagram
-![Workflow](Screenshot_2026-03-15_112036.png)
+![Workflow](https://github.com/Mayurchandekar1/linkedin-post-automation-n8n/blob/main/workflow-screenshot.png)
 
 ## Tech Stack
 - n8n (workflow automation, self-hosted via Docker)
